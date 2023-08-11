@@ -6,7 +6,7 @@ import { selectUsuarios } from "./bd.js";
 dotenv.config();
 
 const app = express(); // Instancia o Express
-const port = 3001; // Define a porta
+const port = 3000; // Define a porta
 
 app.get("/", (req, res) => {
   console.log("Rota / solicitada");
