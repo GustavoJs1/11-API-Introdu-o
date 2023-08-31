@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   res.json({
     message: "API para CRUD usuario: link_gitgub",
   });
+  console.log("Rota / solicitada");
 });
 
 app.listen(port, () => {
