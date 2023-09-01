@@ -12,12 +12,11 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "API para CRUD usuario: link_gitgub",
+    message: "API para CRUD usuario: https://github.com/GustavoJs1/11-API-Introdu-o",
   });
   console.log("Rota / solicitada");
 });
 
 app.listen(port, () => {
-  // Um socket para "escutar" as requisições
   console.log(`Serviço escutando na porta:  ${port}`);
 });
